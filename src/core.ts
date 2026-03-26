@@ -16,7 +16,7 @@ export async function gatekeeperLogic(req: Request, config: GatekeeperConfig, en
     const cf = (req as GatekeeperIncomingRequest).cf;
     const botScore = cf?.botManagement?.score; // pro feature
 
-    // TODO: Integrate with your central Bun API to check JA4 reputation
+    // TODO: Check JA4 reputation
     // const ja4 = cf?.botManagement?.ja4; // TLS Fingerprint (enterprise feature)
     // if (ja4 && await checkJa4Reputation(ja4)) isAgent = true; 
 
