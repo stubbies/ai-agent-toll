@@ -1,11 +1,15 @@
 {
-  "name": "@stubbies/ai-agent-toll",
+  "name": "ai-agent-toll",
   "version": "1.0.0",
   "description": "HTTP 402 Payment Required proxy for AI agents. Enforce USDC payments on Base via Cloudflare Workers.",
   "keywords": ["ai", "agents", "402", "web3", "base", "usdc", "paywall", "cloudflare-workers", "hono"],
   "private": false,
   "author": "Stubbies",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stubbies/ai-agent-toll.git"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
