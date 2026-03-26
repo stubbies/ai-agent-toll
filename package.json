@@ -1,0 +1,34 @@
+{
+  "name": "@stubbies/ai-agent-toll",
+  "version": "1.0.0",
+  "description": "HTTP 402 Payment Required proxy for AI agents. Enforce USDC payments on Base via Cloudflare Workers.",
+  "keywords": ["ai", "agents", "402", "web3", "base", "usdc", "paywall", "cloudflare-workers", "hono"],
+  "private": false,
+  "author": "Stubbies",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "tsc"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "hono": "^4.6.12",
+    "viem": "^2.21.0"
+  }
+}

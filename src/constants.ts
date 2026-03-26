@@ -1,0 +1,1 @@
+export const DEFAULT_CHECKOUT_URL = 'https://pay.stubbies.com';
