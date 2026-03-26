@@ -93,4 +93,4 @@ We are currently implementing **JA4 Fingerprinting** to provide 99.9% detection 
 - [ ] **TODO: JA4 TLS Fingerprinting** (Requires Cloudflare Enterprise/Business)
 - [ ] **TODO: Global JA4 Reputation Database** (Crowdsourced bot signatures)
 
-> **Note:** JA4 detection is currently in "Beta". If you are on a Cloudflare Free/Pro plan, the SDK will fallback to high-accuracy Header and Behavioral analysis.
+> **Note:** JA4 detection is currently in "Beta". If you are on a Cloudflare Pro plan, the SDK will fallback to high-accuracy Header and Behavioral analysis.
