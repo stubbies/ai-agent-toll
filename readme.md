@@ -71,7 +71,7 @@ export default {
 
 **"Dark"** by design.
 - **No Data Exfiltration**: We never see your users' IPs, Headers, or Payloads.
-- **Local Verification**: License keys and AccessGrants are verified cryptographically within your Worker.
+- **Local Verification**: AccessGrants are verified cryptographically within your Worker.
 - **GDPR Ready**: No PII is ever sent to our servers.
 
 ## How it Works for Agents
@@ -79,9 +79,6 @@ export default {
 3. **Payment**: Agent (or human) pays via the Link header or signs an **EIP-712** message.
 4. **Access**: Agent retries with Authorization: Gatekeeper `<payload>.<signature>`.
 5. **Verification**: SDK verifies the on-chain transaction and signature locally.
-
-## Get your License Key
-Visit {site} to get started.
 
 ## 🛠️ Roadmap & Development Status
 
