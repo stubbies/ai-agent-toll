@@ -13,14 +13,14 @@ Stop blocking AI agents and start charging them. This sdk enforces **HTTP 402 Pa
 ## Installation
 
 ```bash
-npm install @stubbies/ai-agent-toll
+npm install ai-agent-toll
 ```
 
 ## Usage (Hono)
 
 ```ts
 import { Hono } from 'hono';
-import { gatekeeper, TOKENS } from '@stubbies/ai-agent-toll';
+import { gatekeeper, TOKENS } from 'ai-agent-toll';
 
 const app = new Hono();
 
@@ -49,7 +49,7 @@ export default app;
 ## Usage (Vanilla Worker)
 
 ```ts
-import { withGatekeeper } from '@stubbies/ai-agent-toll';
+import { withGatekeeper } from 'ai-agent-toll';
 
 const worker = {
   async fetch(req, env, ctx) {

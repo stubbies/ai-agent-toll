@@ -1,6 +1,6 @@
 {
   "name": "ai-agent-toll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTTP 402 Payment Required proxy for AI agents. Enforce USDC payments on Base via Cloudflare Workers.",
   "keywords": ["ai", "agents", "402", "web3", "base", "usdc", "paywall", "cloudflare-workers", "hono"],
   "private": false,
